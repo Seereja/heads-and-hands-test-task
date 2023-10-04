@@ -19,7 +19,7 @@ public class Hero extends Character implements AbleToRecovery {
             System.out.println("Ваше здоровье: " + hp + "/" + hpMax + " HP");
             System.out.println("У вас осталось возможности отхилиться " + healsCount);
         } else {
-            System.out.println("Закончились баночки с лексиром здоровья");
+            System.out.println("Закончились баночки с эликсиром здоровья");
         }
     }
 }
